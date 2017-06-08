@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "main": "calculator.js",
   "scripts": {
-    "test": "mocha ./test.js"
+    "test": "nyc ./node_modules/.bin/ava -v",
+    "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
+    "standard": "standard index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,21 @@
   "homepage": "https://github.com/jespinoza711/TestPrubeasUnitarias#readme",
   "description": "",
   "devDependencies": {
-    "mocha": "3.4.2"
+    "mocha": "3.4.2",
+    "ava": "^0.16.0",
+    "co-exec": "^1.0",
+    "codecov": "^1.0.1",
+    "ghooks": "^1.2.4",
+    "nyc": "^10.0.0",
+    "standard": "^8.4.0"
+  },
+  "dependencies": {
+    "0g": "1.0.2",
+    "travis-cli": "1.0.9"
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "npm run standard"
+    }
   }
 }

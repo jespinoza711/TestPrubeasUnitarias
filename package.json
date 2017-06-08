@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "calculator.js",
   "scripts": {
-    "test": "test.js"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",

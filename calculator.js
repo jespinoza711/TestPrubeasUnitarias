@@ -8,7 +8,7 @@ objCalculator = {
 	multiplyNumber: function(a,b){
 		return a*b;
 	},
-	dividenumber: function(a,b){
+	divideNumber: function(a,b){
 		return a/b;
 	}
 }

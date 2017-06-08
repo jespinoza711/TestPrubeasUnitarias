@@ -1,0 +1,19 @@
+{
+  "name": "calculadora",
+  "version": "0.0.1",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jespinoza711/TestPrubeasUnitarias.git"
+  },
+  "author": "Julio Emilio Espinoza <julioemi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jespinoza711/TestPrubeasUnitarias/issues"
+  },
+  "homepage": "https://github.com/jespinoza711/TestPrubeasUnitarias#readme",
+  "description": ""
+}

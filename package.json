@@ -19,7 +19,7 @@
   "homepage": "https://github.com/jespinoza711/TestPrubeasUnitarias#readme",
   "description": "",
   "devDependencies": {
-    "mocha": "3.4.2",
+    "mocha": "3.4.2"
   },
   "dependencies": {
     "0g": "1.0.2",
